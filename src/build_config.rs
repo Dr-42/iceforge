@@ -23,7 +23,7 @@ use toml::de::Error as TomlError; // For handling deserialization errors
 
 mod build_settings;
 mod custom_build_rule;
-mod dependencies;
+pub mod dependencies;
 mod r#override;
 mod subproject;
 
